@@ -1,0 +1,42 @@
+* {
+	font-family: Helvetica;
+}
+
+body {
+	padding: 1em;
+}
+
+h1, h2 {
+	display: inline;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: darkblue;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+hr {
+	border: none;
+}
+
+dt {
+	color: darkgrey;
+	text-transform: uppercase;
+	font-size: x-small;
+	border-top: thin dashed lightgrey;
+	margin-top: 1em;
+}
+
+dd {
+	text-align: right;
+}
+
+div.bio {
+	float: left;
+	padding: 1em 3em 2em 3em;
+}
