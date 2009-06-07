@@ -20,8 +20,21 @@ a:hover {
 	color: red;
 }
 
-hr {
-	border: none;
+#header {
+/*	text-align: center;*/
+/*	border-bottom: thin solid lightgrey;*/
+	padding-bottom: 1em;
+}
+
+#content {
+	clear: both;
+}
+
+#footer {
+	clear: both;
+/*	text-align: center;*/
+/*	border-top: thin solid lightgrey;*/
+	padding-top: 1em;
 }
 
 dt {
@@ -38,5 +51,5 @@ dd {
 
 div.bio {
 	float: left;
-	padding: 1em 3em 2em 3em;
+	padding-right: 3em;
 }
