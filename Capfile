@@ -10,7 +10,6 @@ task :scp, :roles => :site do
   destination = '~/podcast.anachromystic.com'
   upload 'index.html', destination, :via => :scp
   upload 'styles.css', destination, :via => :scp
-  upload 'blueprint', destination, :via => :scp, :recursive => true
   upload 'images', destination, :via => :scp, :recursive => true
 end
 
