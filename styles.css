@@ -1,18 +1,20 @@
 * {
 	font-family: Helvetica;
+	color: #333333;
 }
 
 body {
 	padding: 1em;
+  background-image:url('images/site_bg.gif');
 }
 
-h1, h2 {
-	display: inline;
+.breaker {
+	clear: both;
 }
 
 a, a:visited {
 	text-decoration: none;
-	color: darkblue;
+	color: #ffedc8;
 }
 
 a:hover {
@@ -21,35 +23,100 @@ a:hover {
 }
 
 #header {
-/*	text-align: center;*/
-/*	border-bottom: thin solid lightgrey;*/
 	padding-bottom: 1em;
 }
 
 #content {
-	clear: both;
+	float: left;
 }
 
 #footer {
-	clear: both;
-/*	text-align: center;*/
-/*	border-top: thin solid lightgrey;*/
-	padding-top: 1em;
+	float: left;
+	padding-left: 1em;
 }
 
 dt {
-	color: darkgrey;
 	text-transform: uppercase;
 	font-size: x-small;
 	border-top: thin dashed lightgrey;
 	margin-top: 1em;
+	padding-left: 1em;
 }
 
 dd {
 	text-align: right;
+	padding-right: 1em;
+}
+
+div.headshot {
+	float: left;
+	margin-right: 0.5em;
+	width: 168px;
+	height: 145px;
+}
+
+#teds-pic {
+  background-image:url('images/ted.jpg');
+}
+
+#craigs-pic {
+  background-image:url('images/craig.jpg');
+}
+
+h2 {
+	line-height: 2em;
+	padding-left: 2.4em;
+	height: 2em;
+	font-weight: normal;
+}
+
+#rss {
+  background-image:url('images/rss.png');
+	background-repeat:no-repeat;
+}
+
+#itunes {
+  background-image:url('images/podcast.png');
+	background-repeat:no-repeat;
+}
+
+#email {
+  background-image:url('images/email.png');
+	background-repeat:no-repeat;
+}
+
+div.bio a, div.bio a:visited {
+	color: darkblue;
 }
 
 div.bio {
 	float: left;
-	padding-right: 3em;
+	width: 247px;
+	margin: 0 0.5em 0.5em 0;
+	padding: 2em 10px 1em 10px;
+}
+
+div.ted {
+  background-image:url('images/ted_paper.png');
+}
+
+div.craig {
+  background-image:url('images/craig_paper.png');
+}
+
+h3.name {
+	height:26px;
+	width:239px;
+	line-height:500px;
+	margin:0;
+	overflow:hidden;	
+	background-repeat:no-repeat;
+}
+
+h3.ted {
+	background-image:url(images/thomas_teflon_ted_davis.png);
+}
+
+h3.craig {
+	background-image:url(images/craig_kanook_walker.png);
 }
