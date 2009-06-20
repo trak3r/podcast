@@ -93,15 +93,17 @@ div.bio {
 	float: left;
 	width: 247px;
 	margin: 0 0.5em 0.5em 0;
-	padding: 2em 10px 1em 10px;
+	padding: 0em 10px 0em 10px;
 }
 
-div.ted {
+#teds-box {
   background-image:url('images/ted_paper.png');
+	padding-top: 2em;
 }
 
-div.craig {
+#craigs-box {
   background-image:url('images/craig_paper.png');
+	padding-top: 2em;
 }
 
 h3.name {
