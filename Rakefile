@@ -17,7 +17,7 @@ task :default do
   channel.image = RSS::Rss::Channel::Image.new  
   channel.image.url = 'http://podcast.softcraft.ca/anachromystic/audio/logo.jpg'
   channel.image.title = 'Anachromystic Podcast Logo'
-  channel.image.link = channel.image.url
+  channel.image.link = channel.link
 
   channel.itunes_author = 'Ted Davis'
   channel.itunes_owner = RSS::ITunesChannelModel::ITunesOwner.new  
@@ -30,7 +30,8 @@ task :default do
   channel.itunes_summary = channel.description
 
    # below is what iTunes uses for your "album art", different from RSS standard  
-   channel.itunes_image = channel.image.url
+   channel.itunes_image = RSS::ITunesChannelModel::ITunesImage.new(channel.image.url)
+   channel.itunes_image.href = channel.link
    channel.itunes_explicit = 'Explicit'
 
   # collection.audio_items.each do |r|  
@@ -64,8 +65,9 @@ task :default do
   feed = RSS::Rss.new("2.0")  
   feed.encoding = 'utf-8'
   feed.channel = channel  
-  File.open('episodes.rss', 'w') do |file|
-    file.puts feed  
-  end
+  puts feed.to_s
+  # File.open('episodes.rss', 'w') do |file|
+  #   file.puts feed  
+  # end
 end
           
