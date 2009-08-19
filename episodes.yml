@@ -4,3 +4,37 @@
   media_file_size: 33
   pub_date: '4/15/2009'
   description: This is just a test.
+002:
+  media_url: '002 Database Dichotomies.mp3'
+003:
+  media_url: "003 Ted's Million-Dollar Idea.m4a"
+004:
+  media_url: '004 Dot-Com War Stories and Listener Feedback.m4a'
+005:
+  media_url: '005 Tools of the Trade for Freelance Developers.m4a'
+006:
+  media_url: "006 Developer's Toolbox.m4a"
+007:
+  media_url: '007 Spinning Up for a New Client or Project.m4a'
+008:
+  media_url: '008 Tales of Disk Failure and Massive Parallelisation.m4a'
+009:
+  media_url: '009 The Perfect Programming Language.m4a'
+010:
+  media_url: '010 The Perfect Programming Language Continued.m4a'
+011:
+  media_url: '011 Interview with John Gallagher of Synaptic Mishap.m4a'
+012:
+  media_url: '012 The Perfect Programming Language Finale.m4a'
+013:
+  media_url: '013 Getting People to Do What You Want.mp3'
+014:
+  media_url: '014 Making the Move from Salary to Freelance.mp3'
+015:
+  media_url: '015 Crazy Java Generics.mp3'
+016:
+  media_url: '016 Getting Started with Ruby on Rails.mp3'
+017:
+  media_url: '017 FreeNAS and the VMware Hypervisor.mp3'
+018:
+  media_url: '018 Producing Videos for Online Distribution.m4a'
