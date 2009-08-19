@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Anachromystic Podcast</title>
+    <link>http://podcast.anachromystic.com</link>
+    <description>Two grizzled veterans of the first dot-com bubble discuss technology.</description>
+    <language>en</language>
+    <copyright>2009</copyright>
+    <lastBuildDate>Tue, 18 Aug 2009 21:02:29 -0400</lastBuildDate>
+    <image>
+      <url>http://podcast.softcraft.ca/anachromystic/audio/logo.jpg</url>
+      <title>Anachromystic Podcast Logo</title>
+      <link>http://podcast.anachromystic.com</link>
+    </image>
+    <item>
+      <title>We've Got a Podcast, and Java is Dead!</title>
+      <link>http://podcast.softcraft.ca/anachromystic/audio/001+We+Have+a+Podcast+and+Java+is+Dead.mp3</link>
+      <description>This is just a test.</description>
+      <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/001+We+Have+a+Podcast+and+Java+is+Dead.mp3"
+        type="audio/mpeg"
+        length="33"/>
+      <pubDate>Tue, 14 Apr 2009 20:00:00 -0400</pubDate>
+      <itunes:author>Ted Davis</itunes:author>
+      <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
+    </item>
+    <itunes:category text="Technology"/>
+    <itunes:image href="http://podcast.anachromystic.com"/>
+    <itunes:owner>
+      <itunes:name>Ted Davis</itunes:name>
+      <itunes:email>podcast@anachromystic.com</itunes:email>
+    </itunes:owner>
+    <itunes:author>Ted Davis</itunes:author>
+    <itunes:explicit>Explicit</itunes:explicit>
+    <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
+    <itunes:subtitle>Technology Triage</itunes:subtitle>
+    <itunes:summary>Two grizzled veterans of the first dot-com bubble discuss technology.</itunes:summary>
+  </channel>
+</rss>

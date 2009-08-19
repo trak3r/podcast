@@ -1,9 +1,13 @@
-require 'rss/itunes'
-
 KEYWORDS = %w(technology dot-com java ruby rails iphone linux)
+
+def url_for(suffix)
+  require 'cgi'
+  "http://podcast.softcraft.ca/anachromystic/audio/#{CGI.escape(suffix)}"
+end
 
 desc "Generate the RSS feed"
 task :default do
+  require 'rss/itunes'
   channel = RSS::Rss::Channel.new
   category = RSS::ITunesChannelModel::ITunesCategory.new("Technology")
   channel.itunes_categories << category
@@ -17,7 +21,7 @@ task :default do
 
   # below is your "album art"
   channel.image = RSS::Rss::Channel::Image.new
-  channel.image.url = 'http://podcast.softcraft.ca/anachromystic/audio/logo.jpg'
+  channel.image.url = url_for('logo.jpg')
   channel.image.title = 'Anachromystic Podcast Logo'
   channel.image.link = channel.link
 
@@ -41,7 +45,7 @@ task :default do
     episode = episodes[episode_key]
     item = RSS::Rss::Channel::Item.new
     item.title = episode['title']
-    item.link = episode['media_url']
+    item.link = url_for(episode['media_url'])
     item.itunes_keywords = KEYWORDS
     item.guid = RSS::Rss::Channel::Item::Guid.new
     item.guid.content = episode['image_url']
@@ -64,9 +68,9 @@ task :default do
   feed = RSS::Rss.new("2.0")
   feed.encoding = 'utf-8'
   feed.channel = channel
-  puts feed.to_s
-  # File.open('episodes.rss', 'w') do |file|
-  #   file.puts feed
-  # end
+  # puts feed.to_s
+  File.open('episodes.rss', 'w') do |file|
+    file.puts feed.to_s
+  end
 end
           
