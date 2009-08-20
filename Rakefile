@@ -61,7 +61,9 @@ task :default do
     #item.image = episode['image_url
     item.itunes_author = channel.itunes_author
     item.enclosure = RSS::Rss::Channel::Item::Enclosure.new(
-              item.link, episode['media_file_size'], 'audio/mpeg')
+              item.link, 
+              episode['media_file_size'].to_f * 1024.0 * 1024.0, 
+              'audio/mpeg')
     channel.items << item
   end
 
