@@ -7,7 +7,7 @@
     <description>Two grizzled veterans of the first dot-com bubble discuss technology.</description>
     <language>en</language>
     <copyright>2009</copyright>
-    <lastBuildDate>Thu, 20 Aug 2009 14:15:59 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2009 15:10:03 -0400</lastBuildDate>
     <image>
       <url>http://podcast.softcraft.ca/anachromystic/audio/logo.jpg</url>
       <title>Anachromystic Podcast Logo</title>
@@ -65,6 +65,17 @@
         type="audio/mpeg"
         length="23068672"/>
       <pubDate>Mon, 01 Jun 2009 20:00:00 -0400</pubDate>
+      <itunes:author>Ted Davis</itunes:author>
+      <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
+    </item>
+    <item>
+      <title>Interview with Less Allan Branch</title>
+      <link>http://podcast.softcraft.ca/anachromystic/audio/019%20Interview%20with%20Less%20Allan%20Branch.mp3</link>
+      <description>In this episode, Craig and Ted chat with the infamous, outspoken, and opinionated Allan Branch of Less Everything about web design and a half-dozen other tangents.</description>
+      <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/019%20Interview%20with%20Less%20Allan%20Branch.mp3"
+        type="audio/mpeg"
+        length="14680064"/>
+      <pubDate>Mon, 10 Aug 2009 20:00:00 -0400</pubDate>
       <itunes:author>Ted Davis</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
