@@ -2,7 +2,7 @@ KEYWORDS = %w(technology dot-com java ruby rails iphone linux)
 
 def url_for(suffix)
   require 'cgi'
-  "http://podcast.softcraft.ca/anachromystic/audio/#{CGI.escape(suffix)}"
+  "http://podcast.softcraft.ca/anachromystic/audio/#{CGI.escape(suffix).gsub('+','%20')}"
 end
 
 desc "Generate the RSS feed"
@@ -32,7 +32,7 @@ task :default do
 
   channel.itunes_keywords = KEYWORDS
 
-  channel.itunes_subtitle = 'Technology Triage'
+  channel.itunes_subtitle = channel.description
   channel.itunes_summary = channel.description
 
   # below is what iTunes uses for your "album art", different from RSS standard
@@ -47,7 +47,7 @@ task :default do
     item.title = episode['title']
     item.link = url_for(episode['media_url'])
     item.itunes_keywords = KEYWORDS
-    item.guid = RSS::Rss::Channel::Item::Guid.new
+    item.guid = RSS::Rss::Channel::Item::Guid.new # is this used!?
     item.guid.content = episode['image_url']
     item.guid.isPermaLink = true
     puts episode.inspect
