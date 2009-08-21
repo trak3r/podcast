@@ -7,7 +7,7 @@
     <description>Two grizzled veterans of the first dot-com bubble discuss technology.</description>
     <language>en</language>
     <copyright>2009</copyright>
-    <lastBuildDate>Thu, 20 Aug 2009 15:10:03 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2009 22:31:21 -0400</lastBuildDate>
     <image>
       <url>http://podcast.softcraft.ca/anachromystic/audio/logo.jpg</url>
       <title>Anachromystic Podcast Logo</title>
@@ -16,7 +16,7 @@
     <item>
       <title>Tools of the Trade for Freelance Developers</title>
       <link>http://podcast.softcraft.ca/anachromystic/audio/005%20Tools%20of%20the%20Trade%20for%20Freelance%20Developers.m4a</link>
-      <description>In this episode, Ted and Craig discuss the tools they use for managing their consulting businesses: time tracking, invoicing, clients, projects, etc. Tools discussed include Freshbooks, Basecamp, Pivotal Tracker, Trac, Lighthouse, FogBugz, git and Subversion (again), GitHub, Emurse, and even Pandora.</description>
+      <description>Ted and Craig discuss the tools they use for managing their consulting businesses: time tracking, invoicing, clients, projects, etc. Tools discussed include Freshbooks, Basecamp, Pivotal Tracker, Trac, Lighthouse, FogBugz, git and Subversion (again), GitHub, Emurse, and even Pandora.</description>
       <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/005%20Tools%20of%20the%20Trade%20for%20Freelance%20Developers.m4a"
         type="audio/mpeg"
         length="18454937"/>
@@ -27,7 +27,7 @@
     <item>
       <title>Getting People to Do What You Want</title>
       <link>http://podcast.softcraft.ca/anachromystic/audio/013%20Getting%20People%20to%20Do%20What%20You%20Want.mp3</link>
-      <description>In this episode, Craig and Ted welcome their old colleague Marco to discuss getting people to do what you want.</description>
+      <description>Ted and Craig welcome their old colleague Marco to discuss getting people to do what you want.</description>
       <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/013%20Getting%20People%20to%20Do%20What%20You%20Want.mp3"
         type="audio/mpeg"
         length="27472691"/>
@@ -49,7 +49,7 @@
     <item>
       <title>Developer's Toolbox</title>
       <link>http://podcast.softcraft.ca/anachromystic/audio/006%20Developer%27s%20Toolbox.m4a</link>
-      <description>In this week's episode, Craig and Ted discuss the tools they use for development: IDE's, debuggers, profilers, text editors, refactoring, continuous integration, testing, and more.</description>
+      <description>Ted and Craig discuss the tools they use for development: IDE's, debuggers, profilers, text editors, refactoring, continuous integration, testing, and more.</description>
       <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/006%20Developer%27s%20Toolbox.m4a"
         type="audio/mpeg"
         length="21495808"/>
@@ -60,7 +60,7 @@
     <item>
       <title>Tales of Disk Failure and Massive Parallelisation</title>
       <link>http://podcast.softcraft.ca/anachromystic/audio/008%20Tales%20of%20Disk%20Failure%20and%20Massive%20Parallelisation.m4a</link>
-      <description>In this episode, Craig tells his tale of laptop hard drive failure and Ted brags about his latest gig using massive parallelisation to speed-up an excruciatingly slow task.</description>
+      <description>Craig tells his tale of laptop hard drive failure and Ted brags about his latest gig using massive parallelisation to speed-up an excruciatingly slow task.</description>
       <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/008%20Tales%20of%20Disk%20Failure%20and%20Massive%20Parallelisation.m4a"
         type="audio/mpeg"
         length="23068672"/>
@@ -71,7 +71,7 @@
     <item>
       <title>Interview with Less Allan Branch</title>
       <link>http://podcast.softcraft.ca/anachromystic/audio/019%20Interview%20with%20Less%20Allan%20Branch.mp3</link>
-      <description>In this episode, Craig and Ted chat with the infamous, outspoken, and opinionated Allan Branch of Less Everything about web design and a half-dozen other tangents.</description>
+      <description>Ted and Craig chat with the infamous, outspoken, and opinionated Allan Branch of Less Everything about web design and a half-dozen other tangents.</description>
       <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/019%20Interview%20with%20Less%20Allan%20Branch.mp3"
         type="audio/mpeg"
         length="14680064"/>
@@ -82,7 +82,7 @@
     <item>
       <title>We've Got a Podcast, and Java is Dead!</title>
       <link>http://podcast.softcraft.ca/anachromystic/audio/001%20We%20Have%20a%20Podcast%20and%20Java%20is%20Dead.mp3</link>
-      <description>In this episode, Craig and Ted discuss Scala vs. Ruby, Pair Programming, Cloud Computing, and the death of the Java programming language.</description>
+      <description>Ted and Craig discuss Scala vs. Ruby, Pair Programming, Cloud Computing, and the death of the Java programming language.</description>
       <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/001%20We%20Have%20a%20Podcast%20and%20Java%20is%20Dead.mp3"
         type="audio/mpeg"
         length="30198988"/>
@@ -93,7 +93,7 @@
     <item>
       <title>The Perfect Programming Language</title>
       <link>http://podcast.softcraft.ca/anachromystic/audio/009%20The%20Perfect%20Programming%20Language.m4a</link>
-      <description>In this episode, Craig and Ted discuss the features they'd like to have in their perfect programming language.</description>
+      <description>Ted and Craig discuss the features they'd like to have in their perfect programming language.</description>
       <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/009%20The%20Perfect%20Programming%20Language.m4a"
         type="audio/mpeg"
         length="18350080"/>
@@ -104,7 +104,7 @@
     <item>
       <title>Making the Move from Salary to Freelance</title>
       <link>http://podcast.softcraft.ca/anachromystic/audio/014%20Making%20the%20Move%20from%20Salary%20to%20Freelance.mp3</link>
-      <description>In this episode, Ted and Craig interview their old colleague Larry about his recent jump from Salaryville to Freelancington.</description>
+      <description>Ted and Craig interview their old colleague Larry about his recent jump from Salaryville to Freelancington.</description>
       <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/014%20Making%20the%20Move%20from%20Salary%20to%20Freelance.mp3"
         type="audio/mpeg"
         length="21810380"/>
@@ -115,7 +115,7 @@
     <item>
       <title>Spinning Up for a New Client or Project</title>
       <link>http://podcast.softcraft.ca/anachromystic/audio/007%20Spinning%20Up%20for%20a%20New%20Client%20or%20Project.m4a</link>
-      <description>This week Ted and Craig discuss the first things they do when starting a new project or working with a new client, from time tracking to requirements gathering, setting expectations, estimating work effort, and recording correspondence for posterity.</description>
+      <description>Ted and Craig discuss the first things they do when starting a new project or working with a new client, from time tracking to requirements gathering, setting expectations, estimating work effort, and recording correspondence for posterity.</description>
       <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/007%20Spinning%20Up%20for%20a%20New%20Client%20or%20Project.m4a"
         type="audio/mpeg"
         length="20237516"/>
@@ -126,7 +126,7 @@
     <item>
       <title>Database Dichotomies</title>
       <link>http://podcast.softcraft.ca/anachromystic/audio/002%20Database%20Dichotomies.mp3</link>
-      <description>In this episode Craig and Ted discuss Friendfeed's move to a schema-less database, the Oracle-Sun merger and what it might mean for MySQL, hosting providers, iPhone development, and the Twitter OAuth security hole.</description>
+      <description>Ted and Craig discuss Friendfeed's move to a schema-less database, the Oracle-Sun merger and what it might mean for MySQL, hosting providers, iPhone development, and the Twitter OAuth security hole.</description>
       <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/002%20Database%20Dichotomies.mp3"
         type="audio/mpeg"
         length="24117248"/>
@@ -137,7 +137,7 @@
     <item>
       <title>Crazy Java Generics</title>
       <link>http://podcast.softcraft.ca/anachromystic/audio/015%20Crazy%20Java%20Generics.mp3</link>
-      <description>In this episode, Ted and Craig interview their old colleague Eric about the crazy stuff he's doing in Java with generics and reflection. This one is very tech heavy; you've been warned.</description>
+      <description>Ted and Craig interview their old colleague Eric about the crazy stuff he's doing in Java with generics and reflection. This one is very tech heavy; you've been warned.</description>
       <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/015%20Crazy%20Java%20Generics.mp3"
         type="audio/mpeg"
         length="22544384"/>
@@ -148,7 +148,7 @@
     <item>
       <title>The Perfect Programming Language Continued</title>
       <link>http://podcast.softcraft.ca/anachromystic/audio/010%20The%20Perfect%20Programming%20Language%20Continued.m4a</link>
-      <description>In this episode Ted and Craig continue their discussion of the traits they would desire in the perfect programming language, with a couple tangents on Google Wave and the podcast web site design.</description>
+      <description>Ted and Craig continue their discussion of the traits they would desire in the perfect programming language, with a couple tangents on Google Wave and the podcast web site design.</description>
       <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/010%20The%20Perfect%20Programming%20Language%20Continued.m4a"
         type="audio/mpeg"
         length="22858956"/>
@@ -159,7 +159,7 @@
     <item>
       <title>Ted's Million-Dollar Idea</title>
       <link>http://podcast.softcraft.ca/anachromystic/audio/003%20Ted%27s%20Million-Dollar%20Idea.m4a</link>
-      <description>In this episode, Ted pitches his latest and greatest multi-million-dollar business idea to Craig, which leads to a discussion on successes and failures in the dot-com industry, and why The Right Way to do software development seems so obvious yet so few organizations manage to pull it off.</description>
+      <description>Ted pitches his latest and greatest multi-million-dollar business idea to Craig, which leads to a discussion on successes and failures in the dot-com industry, and why The Right Way to do software development seems so obvious yet so few organizations manage to pull it off.</description>
       <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/003%20Ted%27s%20Million-Dollar%20Idea.m4a"
         type="audio/mpeg"
         length="19608371"/>
@@ -170,7 +170,7 @@
     <item>
       <title>Getting Started with Ruby on Rails</title>
       <link>http://podcast.softcraft.ca/anachromystic/audio/016%20Getting%20Started%20with%20Ruby%20on%20Rails.mp3</link>
-      <description>In this episode, Craig grills Ted about getting started with Ruby on Rails.</description>
+      <description>Craig grills Ted about getting started with Ruby on Rails.</description>
       <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/016%20Getting%20Started%20with%20Ruby%20on%20Rails.mp3"
         type="audio/mpeg"
         length="26528972"/>
@@ -181,7 +181,7 @@
     <item>
       <title>Interview with John Gallagher of Synaptic Mishap</title>
       <link>http://podcast.softcraft.ca/anachromystic/audio/011%20Interview%20with%20John%20Gallagher%20of%20Synaptic%20Mishap.m4a</link>
-      <description>In this episode Craig and Ted interview John Gallagher from Synaptic Mishap about his latest project: time tracking without timers.</description>
+      <description>Ted and Craig interview John Gallagher from Synaptic Mishap about his latest project: time tracking without timers.</description>
       <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/011%20Interview%20with%20John%20Gallagher%20of%20Synaptic%20Mishap.m4a"
         type="audio/mpeg"
         length="18245222"/>
@@ -192,7 +192,7 @@
     <item>
       <title>Dot-Com War Stories and Listener Feedback</title>
       <link>http://podcast.softcraft.ca/anachromystic/audio/004%20Dot-Com%20War%20Stories%20and%20Listener%20Feedback.m4a</link>
-      <description>In this episode, Craig and Ted answer a listener's request to discuss git versus Subversion, and read and respond to a listener e-mail about using Bayesian logic for automated time tracking. To wrap things up, Craig praises new start-up Blellow and Ted waxes nostalgic about Yammer.</description>
+      <description>Ted and Craig answer a listener's request to discuss git versus Subversion, and read and respond to a listener e-mail about using Bayesian logic for automated time tracking. To wrap things up, Craig praises new start-up Blellow and Ted waxes nostalgic about Yammer.</description>
       <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/004%20Dot-Com%20War%20Stories%20and%20Listener%20Feedback.m4a"
         type="audio/mpeg"
         length="20027801"/>
@@ -214,7 +214,7 @@
     <item>
       <title>The Perfect Programming Language Finale</title>
       <link>http://podcast.softcraft.ca/anachromystic/audio/012%20The%20Perfect%20Programming%20Language%20Finale.m4a</link>
-      <description>In this episode, Craig takes the conversation about the perfect programming language to a whole new level.</description>
+      <description>Craig takes the conversation about the perfect programming language to a whole new level.</description>
       <enclosure url="http://podcast.softcraft.ca/anachromystic/audio/012%20The%20Perfect%20Programming%20Language%20Finale.m4a"
         type="audio/mpeg"
         length="45298483"/>
