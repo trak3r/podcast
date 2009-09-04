@@ -36,7 +36,7 @@ task :default do
   channel.itunes_summary = channel.description
 
   # below is what iTunes uses for your "album art", different from RSS standard
-  channel.itunes_image = RSS::ITunesChannelModel::ITunesImage.new(channel.image.url)
+  channel.itunes_image = RSS::ITunesChannelModel::ITunesImage.new('logo.png')
   # channel.itunes_image.href = channel.link
   channel.itunes_explicit = 'Yes'
 
