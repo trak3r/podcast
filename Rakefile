@@ -37,8 +37,8 @@ task :default do
 
   # below is what iTunes uses for your "album art", different from RSS standard
   channel.itunes_image = RSS::ITunesChannelModel::ITunesImage.new(channel.image.url)
-  channel.itunes_image.href = channel.link
-  channel.itunes_explicit = 'Explicit'
+  # channel.itunes_image.href = channel.link
+  channel.itunes_explicit = 'Yes'
 
   episodes = YAML.load(File.open('episodes.yml'))
   episodes.keys.each do |episode_key|
