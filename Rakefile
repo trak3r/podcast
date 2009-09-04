@@ -12,7 +12,7 @@ task :default do
   category = RSS::ITunesChannelModel::ITunesCategory.new("Technology")
   channel.itunes_categories << category
 
-  channel.title = 'Anachromystic Podcast'
+  channel.title = 'The Anachromystic Podcast'
   channel.description = 'Two grizzled veterans of the first dot-com bubble discuss technology.'
   channel.link = 'http://podcast.anachromystic.com'
   channel.language = 'en'
@@ -21,7 +21,7 @@ task :default do
 
   # below is your "album art"
   channel.image = RSS::Rss::Channel::Image.new
-  channel.image.url = url_for('logo.jpg')
+  channel.image.url = url_for('logo.png')
   channel.image.title = 'Anachromystic Podcast Logo'
   channel.image.link = channel.link
 

@@ -2,14 +2,14 @@
 <rss version="2.0"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
-    <title>Anachromystic Podcast</title>
+    <title>The Anachromystic Podcast</title>
     <link>http://podcast.anachromystic.com</link>
     <description>Two grizzled veterans of the first dot-com bubble discuss technology.</description>
     <language>en</language>
     <copyright>2009</copyright>
-    <lastBuildDate>Fri, 04 Sep 2009 12:39:40 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2009 12:46:11 -0400</lastBuildDate>
     <image>
-      <url>http://podcast.softcraft.ca/anachromystic/audio/logo.jpg</url>
+      <url>http://podcast.softcraft.ca/anachromystic/audio/logo.png</url>
       <title>Anachromystic Podcast Logo</title>
       <link>http://podcast.anachromystic.com</link>
     </image>
@@ -223,7 +223,7 @@
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <itunes:category text="Technology"/>
-    <itunes:image href="http://podcast.softcraft.ca/anachromystic/audio/logo.jpg"/>
+    <itunes:image href="http://podcast.softcraft.ca/anachromystic/audio/logo.png"/>
     <itunes:owner>
       <itunes:name>Ted Davis</itunes:name>
       <itunes:email>podcast@anachromystic.com</itunes:email>
