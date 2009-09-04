@@ -5,6 +5,22 @@ def url_for(suffix)
   "http://podcast.softcraft.ca/anachromystic/audio/#{CGI.escape(suffix).gsub('+','%20')}"
 end
 
+PODCAST_TITLE = 'The Anachromystic Podcast'
+PODCAST_HOMEPAGE = 'http://podcast.anachromystic.com'
+ARTWORK_URL = url_for('logo.png')
+
+def replace_image(feed)
+  bad_image = "  <itunes:image href=\"#{ARTWORK_URL}\"/>\n"
+  good_image = <<-RSS
+  <itunes:image>
+      <url>#{ARTWORK_URL}</url>
+      <title>#{PODCAST_TITLE} Logo</title>
+      <link>#{PODCAST_HOMEPAGE}</link>
+    </itunes:image>
+  RSS
+  feed.gsub(bad_image, good_image)
+end
+
 desc "Generate the RSS feed"
 task :default do
   require 'rss/itunes'
@@ -12,17 +28,17 @@ task :default do
   category = RSS::ITunesChannelModel::ITunesCategory.new("Technology")
   channel.itunes_categories << category
 
-  channel.title = 'The Anachromystic Podcast'
+  channel.title = PODCAST_TITLE
   channel.description = 'Two grizzled veterans of the first dot-com bubble discuss technology.'
-  channel.link = 'http://podcast.anachromystic.com'
+  channel.link = PODCAST_HOMEPAGE
   channel.language = 'en'
   channel.copyright = '2009'
   channel.lastBuildDate = Time.now
 
   # below is your "album art"
   channel.image = RSS::Rss::Channel::Image.new
-  channel.image.url = url_for('logo.png')
-  channel.image.title = 'Anachromystic Podcast Logo'
+  channel.image.url = ARTWORK_URL
+  channel.image.title = "#{PODCAST_TITLE} Logo"
   channel.image.link = channel.link
 
   channel.itunes_author = 'Ted Davis'
@@ -36,8 +52,7 @@ task :default do
   channel.itunes_summary = channel.description
 
   # below is what iTunes uses for your "album art", different from RSS standard
-  channel.itunes_image = RSS::ITunesChannelModel::ITunesImage.new('/podcast/logo.png')
-  # channel.itunes_image.href = channel.link
+  channel.itunes_image = RSS::ITunesChannelModel::ITunesImage.new(channel.image.url)
   channel.itunes_explicit = 'Yes'
 
   episodes = YAML.load(File.open('episodes.yml'))
@@ -72,7 +87,7 @@ task :default do
   feed.channel = channel
   # puts feed.to_s
   File.open('episodes.rss', 'w') do |file|
-    file.puts feed.to_s
+    file.puts replace_image(feed.to_s)
   end
 end
           

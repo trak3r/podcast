@@ -7,10 +7,10 @@
     <description>Two grizzled veterans of the first dot-com bubble discuss technology.</description>
     <language>en</language>
     <copyright>2009</copyright>
-    <lastBuildDate>Fri, 04 Sep 2009 12:51:28 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2009 15:43:32 -0400</lastBuildDate>
     <image>
       <url>http://podcast.softcraft.ca/anachromystic/audio/logo.png</url>
-      <title>Anachromystic Podcast Logo</title>
+      <title>The Anachromystic Podcast Logo</title>
       <link>http://podcast.anachromystic.com</link>
     </image>
     <item>
@@ -223,7 +223,11 @@
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <itunes:category text="Technology"/>
-    <itunes:image href="/podcast/logo.png"/>
+    <itunes:image>
+      <url>http://podcast.softcraft.ca/anachromystic/audio/logo.png</url>
+      <title>The Anachromystic Podcast Logo</title>
+      <link>http://podcast.anachromystic.com</link>
+    </itunes:image>
     <itunes:owner>
       <itunes:name>Ted Davis</itunes:name>
       <itunes:email>podcast@anachromystic.com</itunes:email>
