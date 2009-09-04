@@ -41,7 +41,7 @@ task :default do
   channel.image.title = "#{PODCAST_TITLE} Logo"
   channel.image.link = channel.link
 
-  channel.itunes_author = 'Ted Davis'
+  channel.itunes_author = 'Ted Davis and Craig Walker'
   channel.itunes_owner = RSS::ITunesChannelModel::ITunesOwner.new
   channel.itunes_owner.itunes_name = channel.itunes_author
   channel.itunes_owner.itunes_email = 'podcast@anachromystic.com'

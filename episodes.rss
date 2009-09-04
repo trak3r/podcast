@@ -7,7 +7,7 @@
     <description>Two grizzled veterans of the first dot-com bubble discuss technology.</description>
     <language>en</language>
     <copyright>2009</copyright>
-    <lastBuildDate>Fri, 04 Sep 2009 15:43:32 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2009 17:12:26 -0400</lastBuildDate>
     <image>
       <url>http://podcast.softcraft.ca/anachromystic/audio/logo.png</url>
       <title>The Anachromystic Podcast Logo</title>
@@ -21,7 +21,7 @@
         type="audio/mpeg"
         length="18454937"/>
       <pubDate>Mon, 11 May 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <item>
@@ -32,7 +32,7 @@
         type="audio/mpeg"
         length="27472691"/>
       <pubDate>Sun, 05 Jul 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <item>
@@ -43,7 +43,7 @@
         type="audio/mpeg"
         length="12897484"/>
       <pubDate>Mon, 03 Aug 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <item>
@@ -54,7 +54,7 @@
         type="audio/mpeg"
         length="21495808"/>
       <pubDate>Mon, 18 May 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <item>
@@ -65,7 +65,7 @@
         type="audio/mpeg"
         length="23068672"/>
       <pubDate>Mon, 01 Jun 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <item>
@@ -76,7 +76,7 @@
         type="audio/mpeg"
         length="14680064"/>
       <pubDate>Mon, 10 Aug 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <item>
@@ -87,7 +87,7 @@
         type="audio/mpeg"
         length="30198988"/>
       <pubDate>Tue, 14 Apr 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <item>
@@ -98,7 +98,7 @@
         type="audio/mpeg"
         length="18350080"/>
       <pubDate>Wed, 10 Jun 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <item>
@@ -109,7 +109,7 @@
         type="audio/mpeg"
         length="21810380"/>
       <pubDate>Mon, 13 Jul 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <item>
@@ -120,7 +120,7 @@
         type="audio/mpeg"
         length="20237516"/>
       <pubDate>Wed, 27 May 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <item>
@@ -131,7 +131,7 @@
         type="audio/mpeg"
         length="24117248"/>
       <pubDate>Wed, 22 Apr 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <item>
@@ -142,7 +142,7 @@
         type="audio/mpeg"
         length="22544384"/>
       <pubDate>Mon, 20 Jul 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <item>
@@ -153,7 +153,7 @@
         type="audio/mpeg"
         length="22858956"/>
       <pubDate>Sun, 21 Jun 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <item>
@@ -164,7 +164,7 @@
         type="audio/mpeg"
         length="19608371"/>
       <pubDate>Wed, 29 Apr 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <item>
@@ -175,7 +175,7 @@
         type="audio/mpeg"
         length="26528972"/>
       <pubDate>Mon, 27 Jul 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <item>
@@ -186,7 +186,7 @@
         type="audio/mpeg"
         length="18245222"/>
       <pubDate>Mon, 22 Jun 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <item>
@@ -197,7 +197,7 @@
         type="audio/mpeg"
         length="20027801"/>
       <pubDate>Wed, 06 May 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <item>
@@ -208,7 +208,7 @@
         type="audio/mpeg"
         length="7340032"/>
       <pubDate>Mon, 03 Aug 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <item>
@@ -219,7 +219,7 @@
         type="audio/mpeg"
         length="45298483"/>
       <pubDate>Sun, 28 Jun 2009 20:00:00 -0400</pubDate>
-      <itunes:author>Ted Davis</itunes:author>
+      <itunes:author>Ted Davis and Craig Walker</itunes:author>
       <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     </item>
     <itunes:category text="Technology"/>
@@ -229,10 +229,10 @@
       <link>http://podcast.anachromystic.com</link>
     </itunes:image>
     <itunes:owner>
-      <itunes:name>Ted Davis</itunes:name>
+      <itunes:name>Ted Davis and Craig Walker</itunes:name>
       <itunes:email>podcast@anachromystic.com</itunes:email>
     </itunes:owner>
-    <itunes:author>Ted Davis</itunes:author>
+    <itunes:author>Ted Davis and Craig Walker</itunes:author>
     <itunes:explicit>Yes</itunes:explicit>
     <itunes:keywords>technology, dot-com, java, ruby, rails, iphone, linux</itunes:keywords>
     <itunes:subtitle>Two grizzled veterans of the first dot-com bubble discuss technology.</itunes:subtitle>
